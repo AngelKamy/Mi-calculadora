@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Mi calculadora</title>
+</head>
+
+<body>
+    <!-- Contenerdor principal -->
+    <div class="container">
+
+        <!-- contendor de calculadora -->
+        <div class="calculator dark">
+            <!-- Botón de dark mode -->
+            <div class="them-toggler active">
+                <i class="toggler-icon"></i>
+            </div>
+
+            <!-- Pantalla de calculadora -->
+            <div class="display-screen">
+                <div class="display">
+
+                </div>
+            </div>
+
+            <!-- Botones de calculadora -->
+            <div class="buttons">
+                <table>
+                    <tr>
+                        <td><button class="btnOperador" id="clear"> C </button></td>
+                        <td><button class="btnOperador" id="divide"> / </button></td>
+                        <td><button class="btnOperador" id="multiplica"> X </button></td>
+                        <td><button class="btnOperador" id="backspace"> < </button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btnNumber" id="n7"> 7 </button></td>
+                        <td><button class="btnNumber" id="n8"> 8 </button></td>
+                        <td><button class="btnNumber" id="n9"> 9 </button></td>
+                        <td><button class="btnOperador" id="resta"> - </button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btnNumber" id="n4"> 4 </button></td>
+                        <td><button class="btnNumber" id="n5"> 5 </button></td>
+                        <td><button class="btnNumber" id="n6"> 6 </button></td>
+                        <td><button class="btnOperador" id="suma"> + </button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btnNumber" id="n1"> 1 </button></td>
+                        <td><button class="btnNumber" id="n2"> 2 </button></td>
+                        <td><button class="btnNumber" id="n3"> 3 </button></td>
+                        <td  rowspan="2"><button class="btnOperador" id="resta"> = </button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btnOperador" id="punto"> 1 </button></td>
+                        <td><button class="btnNumber" id="n0"> 0 </button></td>
+                        <td><button class="btnNumber" id="n00"> 00 </button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
